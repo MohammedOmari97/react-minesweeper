@@ -10,17 +10,8 @@ import Counter from './Counter';
 // import Test from './Test';
 import Emoji from './Emoji';
 
-// import laugh from '../emojis/laugh.svg';
-// import smile from '../emojis/smile.svg';
-// import sad from '../emojis/sad.svg';
-
 function Grid({ numBombs, gridWidth, gridHeight, dispatch }) {
   const isMounted = useRef(false);
-
-  // console.log('rendering grid <<<');
-
-  // const [emoji, setEmoji] = useState('smile');
-  // const emojiRef = useRef();
 
   const gameOverRef = useRef();
 
